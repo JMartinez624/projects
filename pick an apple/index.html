@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Pick an apple</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <h1 id="title"> Pick an Apple!</h1>
+            <h3> You chose: <span id="choice"></span> </h3>
+        <div>
+            <button id="green" onclick= 'changeColor("green")'> Green Apple </button>
+            <button id="red" onclick = 'changeColor("red")'> Red Apple </button>
+            <button id="yellow" onclick="changeColor('yellow')"> Yellow Apple </button>
+        </div>
+        <button onclick="document.getElementById('choice').innerHTML = '' "> clear </button>
+
+        <script src = 'apple.js' charset="utf-8">
+        </script>
+    </body>
+</html>
